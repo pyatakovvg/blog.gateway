@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "types": [
+      "node"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es6",
+    "sourceMap": false,
+    "lib": [
+      "ES6"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}

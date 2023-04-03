@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "isolatedModules": true,
+    "paths": {
+      "@api/*": ["./src/api/*"],
+      "@services/*": ["./src/services/*"],
+      "@repositories/*": ["./src/repositories/*"],
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@helper/errors",
+  "version": "0.0.1",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "types",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production tsc",
+    "start:dev": "cross-env NODE_ENV=development tsc --watch"
+  }
+}
